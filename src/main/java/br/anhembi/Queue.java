@@ -64,7 +64,9 @@ public class Queue {
                 out += data[aux] + "-";
                 aux = (aux + 1) % data.length;
             } while (aux != end);
+            out = out.substring(0, out.length() - 1);
         }
+
         return out;
     }
 
