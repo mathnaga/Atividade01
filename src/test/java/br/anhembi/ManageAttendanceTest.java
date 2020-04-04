@@ -16,8 +16,8 @@ public class ManageAttendanceTest {
     private Client cli2Idoso;
     private Client cli3Normal;
     private final int idadeCliente1 = 25;
-    private final int idadeCliente2 = 25;
-    private final int idadeCliente3 = 25;
+    private final int idadeCliente2 = 65;
+    private final int idadeCliente3 = 35;
     private final String nomeCliente1 = "Cliente1";
     private final String nomeCliente2 = "Cliente2";
     private final String nomeCliente3 = "Cliente3";
